@@ -23,7 +23,7 @@ class Solution {
         	String input = scan.next();
         	int[] arr = Arrays.stream(input.split(" "))
                     .mapToInt(Integer::parseInt)
-//                    .toArray();
+                    .toArray();
         Solution sol = new Solution();
         int total = sol.solution(arr);
         System.out.println(total);
